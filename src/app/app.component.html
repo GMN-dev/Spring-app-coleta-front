@@ -1,8 +1,9 @@
 
 <main>
+  <app-modal></app-modal>
   <div class="container-top">
     <h1 class="title-header">Relatório de coleta de equipamentos - Brasília.</h1>
-    <button class="newAssetBtn" type="button">Adicionar equipamento</button>
+    <button class="newAssetBtn" (click)="showModal()" type="button">Adicionar equipamento</button>
   </div>
   <section class="main-section">
     <section class="section-container">
