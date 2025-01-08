@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './asset.component.scss'
 })
 export class AssetComponent {
-
+  public patrimonio: string = "C045048";
+  public imgSrc: string = "assets/media/monitor.png";
+  public status: string = "PENDENTE";
+  public pendingDays: number = 1;
 }
